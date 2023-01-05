@@ -1,0 +1,11 @@
+|Conv
+B[0] => ~NO_FANOUT~
+B[1] => ~NO_FANOUT~
+B[2] => ~NO_FANOUT~
+B[3] => S[3].DATAIN
+S[0] <= <GND>
+S[1] <= <GND>
+S[2] <= <GND>
+S[3] <= B[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
